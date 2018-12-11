@@ -25,11 +25,11 @@ public class MyTimerTask extends TimerTask{
 		
 		System.out.println("TimerTask started. ");
 		
-		try {
-			Thread.sleep(1000000);
-		} catch(InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			Thread.sleep(1000000);
+//		} catch(InterruptedException e) {
+//			e.printStackTrace();
+//		}
 		
 		timer.cancel();
 		System.out.println("TimerTask cancelled. ");
